@@ -1,0 +1,3 @@
+module apps.barebone
+BareboneApp 1.0 BareboneApp.qml
+BareboneTile 1.0 BareboneTile.qml
