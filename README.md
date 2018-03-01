@@ -9,9 +9,10 @@ When naming your app, make sure the primary entry point is called [AppName]App.q
 
 ### Debugging
 If you want to install and test your app, do this:
-    1. Place your app folder in `/qmf/qml/apps/`
-    2. Add your app folder name to the `appsToLoad` array in `/qmf/qml/qb/base/` (somewhere around line 200)
-    3. Restart qt-gui by running `kill $(pidof qt-gui)`
+
+1. Place your app folder in `/qmf/qml/apps/`
+2. Add your app folder name to the `appsToLoad` array in `/qmf/qml/qb/base/` (somewhere around line 200)
+3. Restart qt-gui by running `kill $(pidof qt-gui)`
 
 When debugging, it may be very helpful to enable logging of qt-gui by replacing
 
